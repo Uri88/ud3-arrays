@@ -70,7 +70,7 @@ public class Main {
             System.out.println();
 
             //No funciona la condicion fin
-        } while (!salir.equalsIgnoreCase("fin") || recuento != 81);
+        } while (!salir.equalsIgnoreCase("fin") && recuento != 81);
 
         System.out.println("Saliendo...");
 
